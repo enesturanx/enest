@@ -1,0 +1,157 @@
+.body
+{
+	/** background-color: #FFFFFF; **/
+
+	background-image:url('images/background.png');
+	background-repeat:no-repeat;
+}
+
+.avatar{}
+
+.options{}
+
+.span
+{
+	position:absolute;
+	top:0px;
+	left:30px;
+}
+
+.item
+{
+	height: 200px;
+	width: 100px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#CCCCCC;
+	cursor: pointer;
+	background: #FFFFFF;
+}
+
+.itemhighlite
+{
+	height: 200px;
+	width: 100px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#CCCCCC;
+	cursor: pointer;
+	background: #FFE6B5;
+}
+
+.itemWin
+{
+	top:20px;
+	left:190px;
+	height: 420px; 
+	width: 500px; 
+	overflow-y: auto; 
+	overflow-x: hidden;
+	position:absolute;
+}
+
+.mini
+{
+	height: 24px;
+	width: 59px;
+	position:absolute;
+	background-image:url('images/mini.jpg');
+	padding: 1px;
+	cursor: pointer;
+	text-align:center;
+}
+
+.minitext
+{
+	padding-top: 4px;
+	padding-left: 0px;
+	color: #FFFFFF;
+	font-family: verdana,arial;
+	font-size: 12px;
+	font-weight:bold;
+}
+
+.menu
+{
+	height: 24px;
+	width: 120px;
+	position:absolute;
+	background-image:url('images/menu.jpg');
+	padding: 1px;
+	cursor: pointer;
+}
+
+.menutext
+{
+	padding-top: 4px;
+	padding-left: 5px;
+	color: #FFFFFF;
+	font-family: verdana,arial;
+	font-size: 12px;
+	font-weight:bold;
+}
+
+.button
+{
+	height: 41px;
+	width: 116px;
+	position:absolute;
+	background-image:url('images/save.png');
+	padding: 0px;
+	cursor: pointer;
+	text-align:center;
+}
+
+.buttontext
+{
+	padding-top: 3px;
+	color: #75D6FF;
+	font-family: verdana, arial;
+	font-size: 26px;
+	font-weight:bold;
+}
+
+
+.notice
+{
+	color: #000000;
+	font-family: verdana,arial;
+	font-size: 12px;
+	font-weight:bold;
+}
+
+.loading 
+{
+	left: 301px; 
+	top: 200px;
+	height: 100px;
+	width: 100px;
+	position:absolute;
+	background-image:url('images/loading.gif');
+	background-repeat:no-repeat;
+	visibility: hidden;
+}
+
+a:link 
+{
+	text-decoration: none; 
+	color: #75D6FF;
+}
+
+a:visited 
+{
+	text-decoration: none; 
+	color: #75D6FF;
+}
+
+a:active 
+{	
+	text-decoration: none; 
+	color: #75D6FF;
+}
+
+a:hover 
+{
+	text-decoration: underline; 
+	color: #75D6FF;
+}
